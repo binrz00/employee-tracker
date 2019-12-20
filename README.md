@@ -1,1 +1,3 @@
 # employee-tracker
+this is the employee tracker app. It keeps track of all the employees, their managers, the departments they work in,and their salaries. It uses a cli to store and show the data. I started to build it in mysql but then decided to take the challenge of using sequelize. That was a big mistake, it does not function yet but I will get it soon.
+<img src="/assets/images/fail.jpg" alt="failed docking">
