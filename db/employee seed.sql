@@ -14,7 +14,7 @@ VALUES ("John","Perkins",2);
 INSERT INTO role (title,salary,department_id)
 VALUES("captain",80000,1);
 INSERT INTO role (title,salary,department_id)
-VALUES("captain",90000,2);
+VALUES("admiral",90000,2);
 insert into role (title,salary,department_id)
 values("deck boss",40000,1);
 insert into role (title,salary,department_id)
