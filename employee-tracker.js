@@ -8,12 +8,7 @@ const sequelize = require("./config/connection.js")
 toDoQuestions();
 function toDoQuestions() {
   //sync to the database so I am working with the most updated version
-  sequelize.sync();
-  //show the updated company roster
-// .findAll({raw:true}).then(function(data){
-//   tabledData = cTable.getTable(data);
-//   console.log(tabledData);
-// })
+  sequelize.sync()
   inquirer.prompt([{
     type: "list", message: "what would you like to do?", name: "toDo", choices: ["view all employees", "view all departments", "view all roles",
       "add an employee", "add a role", "add a department", "update an employee's role", "I'm done"]
